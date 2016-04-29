@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <div id="app">
+      <div id="more">
+        <form method="post">
+        <input type="text" id="search" placeholder="Search Location" name="location" required>
+        <button id="submit" type="submit"><img src="img/search.svg"></button>
+        </form>
+      </div>
+      
+    <div id="mainDisplay">
+      <div id="city">ABUJA</div>
+      <div id="country">Nigeria</div>
+      <div id="mainTemp"><span>27</span>&#8451;</div>
+      <div id="time">03:20 pm</div>
+      
+    </div>
+    <div id="lowerApp">
+    <div id="otherDisplay">
+      
+      <div id="weatherDesc">Rain and thunderstorm</div>
+      
+      <div id="pressure" class="info"><label>Pressure : </label>
+        <div class="value"><span>250</span> inches</div></div>
+<!--
+      
+      <div id="temp">
+        <div id="minTemp" class="info">
+          <label>Min-Temperature : </label>
+          <div class="value">25&#8451;</div>
+        </div>
+        <div id="maxTemp" class="info">
+          <label>Max-Temperature :</label>
+          <div class="value">32&#8451;</div>
+        </div>
+      </div>
+-->
+      
+      <div id="coord">
+        <div id="lat" class="info">
+          <label>Latitude :</label>
+          <div class="value"><span>4.07</span>&deg;</div>
+        </div>
+        <div id="lon" class="info">
+          <label>Logitude :</label>
+          <div class="value"><span>14.92</span>&deg;</div>
+        </div>
+      </div>
+   
+    </div>
+    </div>
+    
+    </div>
+    
+<!--  <div class="add"></div> -->
+  </body>
+  
+  
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/app.js"></script>
+  
+  
+</html>
